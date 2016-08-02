@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019B65821D5081D3005145A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65811D5081D3005145A3 /* AppDelegate.swift */; };
+		019B65841D5081D3005145A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65831D5081D3005145A3 /* ViewController.swift */; };
+		019B65871D5081D3005145A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B65851D5081D3005145A3 /* Main.storyboard */; };
+		019B65891D5081D3005145A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019B65881D5081D3005145A3 /* Assets.xcassets */; };
+		019B658C1D5081D3005145A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B658A1D5081D3005145A3 /* LaunchScreen.storyboard */; };
+		019B65A21D5083D3005145A3 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65941D5083D3005145A3 /* Constraint.swift */; };
+		019B65A31D5083D3005145A3 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65951D5083D3005145A3 /* ConstraintAttributes.swift */; };
+		019B65A41D5083D3005145A3 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65961D5083D3005145A3 /* ConstraintDescription.swift */; };
+		019B65A51D5083D3005145A3 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65971D5083D3005145A3 /* ConstraintItem.swift */; };
+		019B65A61D5083D3005145A3 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65981D5083D3005145A3 /* ConstraintMaker.swift */; };
+		019B65A71D5083D3005145A3 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65991D5083D3005145A3 /* ConstraintRelation.swift */; };
+		019B65A81D5083D3005145A3 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B659A1D5083D3005145A3 /* Debugging.swift */; };
+		019B65A91D5083D3005145A3 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B659B1D5083D3005145A3 /* EdgeInsets.swift */; };
+		019B65AA1D5083D3005145A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019B659C1D5083D3005145A3 /* Info.plist */; };
+		019B65AB1D5083D3005145A3 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B659D1D5083D3005145A3 /* LayoutConstraint.swift */; };
+		019B65AC1D5083D3005145A3 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B659F1D5083D3005145A3 /* SnapKit.swift */; };
+		019B65AD1D5083D3005145A3 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65A01D5083D3005145A3 /* View+SnapKit.swift */; };
+		019B65AE1D5083D3005145A3 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65A11D5083D3005145A3 /* ViewController+SnapKit.swift */; };
+		019B65B01D5083FE005145A3 /* CycleTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65AF1D5083FE005145A3 /* CycleTabbarView.swift */; };
+		019B65B21D50841B005145A3 /* IGOSuspendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B65B11D50841B005145A3 /* IGOSuspendButton.swift */; };
+		019B65C61D508495005145A3 /* root.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65B41D508495005145A3 /* root.png */; };
+		019B65C71D508495005145A3 /* root@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65B51D508495005145A3 /* root@2x.png */; };
+		019B65C81D508495005145A3 /* root@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65B61D508495005145A3 /* root@3x.png */; };
+		019B65C91D508495005145A3 /* +.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65B71D508495005145A3 /* +.png */; };
+		019B65CA1D508495005145A3 /* +@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65B81D508495005145A3 /* +@2x.png */; };
+		019B65CB1D508495005145A3 /* +@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65B91D508495005145A3 /* +@3x.png */; };
+		019B65CC1D508495005145A3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65BA1D508495005145A3 /* 1.png */; };
+		019B65CD1D508495005145A3 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65BB1D508495005145A3 /* 1@2x.png */; };
+		019B65CE1D508495005145A3 /* 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65BC1D508495005145A3 /* 1@3x.png */; };
+		019B65CF1D508495005145A3 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65BD1D508495005145A3 /* 2.png */; };
+		019B65D01D508495005145A3 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65BE1D508495005145A3 /* 2@2x.png */; };
+		019B65D11D508495005145A3 /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65BF1D508495005145A3 /* 2@3x.png */; };
+		019B65D21D508495005145A3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65C01D508495005145A3 /* 3.png */; };
+		019B65D31D508495005145A3 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65C11D508495005145A3 /* 3@2x.png */; };
+		019B65D41D508495005145A3 /* 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65C21D508495005145A3 /* 3@3x.png */; };
+		019B65D51D508495005145A3 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65C31D508495005145A3 /* 4.png */; };
+		019B65D61D508495005145A3 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65C41D508495005145A3 /* 4@2x.png */; };
+		019B65D71D508495005145A3 /* 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019B65C51D508495005145A3 /* 4@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		019B657E1D5081D3005145A3 /* SuspendButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspendButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019B65811D5081D3005145A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		019B65831D5081D3005145A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019B65861D5081D3005145A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019B65881D5081D3005145A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		019B658B1D5081D3005145A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		019B658D1D5081D3005145A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019B65941D5083D3005145A3 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		019B65951D5083D3005145A3 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		019B65961D5083D3005145A3 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		019B65971D5083D3005145A3 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		019B65981D5083D3005145A3 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		019B65991D5083D3005145A3 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		019B659A1D5083D3005145A3 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		019B659B1D5083D3005145A3 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		019B659C1D5083D3005145A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019B659D1D5083D3005145A3 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		019B659E1D5083D3005145A3 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		019B659F1D5083D3005145A3 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		019B65A01D5083D3005145A3 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		019B65A11D5083D3005145A3 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		019B65AF1D5083FE005145A3 /* CycleTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CycleTabbarView.swift; path = Source/CycleTabbarView.swift; sourceTree = "<group>"; };
+		019B65B11D50841B005145A3 /* IGOSuspendButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGOSuspendButton.swift; sourceTree = "<group>"; };
+		019B65B41D508495005145A3 /* root.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = root.png; sourceTree = "<group>"; };
+		019B65B51D508495005145A3 /* root@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root@2x.png"; sourceTree = "<group>"; };
+		019B65B61D508495005145A3 /* root@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root@3x.png"; sourceTree = "<group>"; };
+		019B65B71D508495005145A3 /* +.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+.png"; sourceTree = "<group>"; };
+		019B65B81D508495005145A3 /* +@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+@2x.png"; sourceTree = "<group>"; };
+		019B65B91D508495005145A3 /* +@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+@3x.png"; sourceTree = "<group>"; };
+		019B65BA1D508495005145A3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		019B65BB1D508495005145A3 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		019B65BC1D508495005145A3 /* 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@3x.png"; sourceTree = "<group>"; };
+		019B65BD1D508495005145A3 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		019B65BE1D508495005145A3 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		019B65BF1D508495005145A3 /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@3x.png"; sourceTree = "<group>"; };
+		019B65C01D508495005145A3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		019B65C11D508495005145A3 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		019B65C21D508495005145A3 /* 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@3x.png"; sourceTree = "<group>"; };
+		019B65C31D508495005145A3 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		019B65C41D508495005145A3 /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@2x.png"; sourceTree = "<group>"; };
+		019B65C51D508495005145A3 /* 4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019B657B1D5081D3005145A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019B65751D5081D3005145A3 = {
+			isa = PBXGroup;
+			children = (
+				019B65801D5081D3005145A3 /* SuspendButtonDemo */,
+				019B657F1D5081D3005145A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019B657F1D5081D3005145A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019B657E1D5081D3005145A3 /* SuspendButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019B65801D5081D3005145A3 /* SuspendButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				019B65B31D508476005145A3 /* resource */,
+				019B65931D5083D3005145A3 /* snapKit */,
+				019B65811D5081D3005145A3 /* AppDelegate.swift */,
+				019B65831D5081D3005145A3 /* ViewController.swift */,
+				019B65AF1D5083FE005145A3 /* CycleTabbarView.swift */,
+				019B65B11D50841B005145A3 /* IGOSuspendButton.swift */,
+				019B65851D5081D3005145A3 /* Main.storyboard */,
+				019B65881D5081D3005145A3 /* Assets.xcassets */,
+				019B658A1D5081D3005145A3 /* LaunchScreen.storyboard */,
+				019B658D1D5081D3005145A3 /* Info.plist */,
+			);
+			path = SuspendButtonDemo;
+			sourceTree = "<group>";
+		};
+		019B65931D5083D3005145A3 /* snapKit */ = {
+			isa = PBXGroup;
+			children = (
+				019B65941D5083D3005145A3 /* Constraint.swift */,
+				019B65951D5083D3005145A3 /* ConstraintAttributes.swift */,
+				019B65961D5083D3005145A3 /* ConstraintDescription.swift */,
+				019B65971D5083D3005145A3 /* ConstraintItem.swift */,
+				019B65981D5083D3005145A3 /* ConstraintMaker.swift */,
+				019B65991D5083D3005145A3 /* ConstraintRelation.swift */,
+				019B659A1D5083D3005145A3 /* Debugging.swift */,
+				019B659B1D5083D3005145A3 /* EdgeInsets.swift */,
+				019B659C1D5083D3005145A3 /* Info.plist */,
+				019B659D1D5083D3005145A3 /* LayoutConstraint.swift */,
+				019B659E1D5083D3005145A3 /* SnapKit.h */,
+				019B659F1D5083D3005145A3 /* SnapKit.swift */,
+				019B65A01D5083D3005145A3 /* View+SnapKit.swift */,
+				019B65A11D5083D3005145A3 /* ViewController+SnapKit.swift */,
+			);
+			name = snapKit;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		019B65B31D508476005145A3 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				019B65B41D508495005145A3 /* root.png */,
+				019B65B51D508495005145A3 /* root@2x.png */,
+				019B65B61D508495005145A3 /* root@3x.png */,
+				019B65B71D508495005145A3 /* +.png */,
+				019B65B81D508495005145A3 /* +@2x.png */,
+				019B65B91D508495005145A3 /* +@3x.png */,
+				019B65BA1D508495005145A3 /* 1.png */,
+				019B65BB1D508495005145A3 /* 1@2x.png */,
+				019B65BC1D508495005145A3 /* 1@3x.png */,
+				019B65BD1D508495005145A3 /* 2.png */,
+				019B65BE1D508495005145A3 /* 2@2x.png */,
+				019B65BF1D508495005145A3 /* 2@3x.png */,
+				019B65C01D508495005145A3 /* 3.png */,
+				019B65C11D508495005145A3 /* 3@2x.png */,
+				019B65C21D508495005145A3 /* 3@3x.png */,
+				019B65C31D508495005145A3 /* 4.png */,
+				019B65C41D508495005145A3 /* 4@2x.png */,
+				019B65C51D508495005145A3 /* 4@3x.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019B657D1D5081D3005145A3 /* SuspendButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019B65901D5081D3005145A3 /* Build configuration list for PBXNativeTarget "SuspendButtonDemo" */;
+			buildPhases = (
+				019B657A1D5081D3005145A3 /* Sources */,
+				019B657B1D5081D3005145A3 /* Frameworks */,
+				019B657C1D5081D3005145A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuspendButtonDemo;
+			productName = SuspendButtonDemo;
+			productReference = 019B657E1D5081D3005145A3 /* SuspendButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019B65761D5081D3005145A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DQ;
+				TargetAttributes = {
+					019B657D1D5081D3005145A3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 019B65791D5081D3005145A3 /* Build configuration list for PBXProject "SuspendButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019B65751D5081D3005145A3;
+			productRefGroup = 019B657F1D5081D3005145A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019B657D1D5081D3005145A3 /* SuspendButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019B657C1D5081D3005145A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019B65D31D508495005145A3 /* 3@2x.png in Resources */,
+				019B65CC1D508495005145A3 /* 1.png in Resources */,
+				019B65CA1D508495005145A3 /* +@2x.png in Resources */,
+				019B65CF1D508495005145A3 /* 2.png in Resources */,
+				019B65D21D508495005145A3 /* 3.png in Resources */,
+				019B65C71D508495005145A3 /* root@2x.png in Resources */,
+				019B65AA1D5083D3005145A3 /* Info.plist in Resources */,
+				019B65C61D508495005145A3 /* root.png in Resources */,
+				019B65D71D508495005145A3 /* 4@3x.png in Resources */,
+				019B65D51D508495005145A3 /* 4.png in Resources */,
+				019B65C91D508495005145A3 /* +.png in Resources */,
+				019B65CD1D508495005145A3 /* 1@2x.png in Resources */,
+				019B65D41D508495005145A3 /* 3@3x.png in Resources */,
+				019B65D11D508495005145A3 /* 2@3x.png in Resources */,
+				019B658C1D5081D3005145A3 /* LaunchScreen.storyboard in Resources */,
+				019B65891D5081D3005145A3 /* Assets.xcassets in Resources */,
+				019B65D61D508495005145A3 /* 4@2x.png in Resources */,
+				019B65CE1D508495005145A3 /* 1@3x.png in Resources */,
+				019B65CB1D508495005145A3 /* +@3x.png in Resources */,
+				019B65D01D508495005145A3 /* 2@2x.png in Resources */,
+				019B65C81D508495005145A3 /* root@3x.png in Resources */,
+				019B65871D5081D3005145A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019B657A1D5081D3005145A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019B65A21D5083D3005145A3 /* Constraint.swift in Sources */,
+				019B65AB1D5083D3005145A3 /* LayoutConstraint.swift in Sources */,
+				019B65A81D5083D3005145A3 /* Debugging.swift in Sources */,
+				019B65A91D5083D3005145A3 /* EdgeInsets.swift in Sources */,
+				019B65A31D5083D3005145A3 /* ConstraintAttributes.swift in Sources */,
+				019B65B01D5083FE005145A3 /* CycleTabbarView.swift in Sources */,
+				019B65A61D5083D3005145A3 /* ConstraintMaker.swift in Sources */,
+				019B65841D5081D3005145A3 /* ViewController.swift in Sources */,
+				019B65AE1D5083D3005145A3 /* ViewController+SnapKit.swift in Sources */,
+				019B65821D5081D3005145A3 /* AppDelegate.swift in Sources */,
+				019B65A41D5083D3005145A3 /* ConstraintDescription.swift in Sources */,
+				019B65A71D5083D3005145A3 /* ConstraintRelation.swift in Sources */,
+				019B65AC1D5083D3005145A3 /* SnapKit.swift in Sources */,
+				019B65A51D5083D3005145A3 /* ConstraintItem.swift in Sources */,
+				019B65B21D50841B005145A3 /* IGOSuspendButton.swift in Sources */,
+				019B65AD1D5083D3005145A3 /* View+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		019B65851D5081D3005145A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019B65861D5081D3005145A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019B658A1D5081D3005145A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019B658B1D5081D3005145A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019B658E1D5081D3005145A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		019B658F1D5081D3005145A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019B65911D5081D3005145A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuspendButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuwangkeji.SuspendButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		019B65921D5081D3005145A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuspendButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuwangkeji.SuspendButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019B65791D5081D3005145A3 /* Build configuration list for PBXProject "SuspendButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019B658E1D5081D3005145A3 /* Debug */,
+				019B658F1D5081D3005145A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019B65901D5081D3005145A3 /* Build configuration list for PBXNativeTarget "SuspendButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019B65911D5081D3005145A3 /* Debug */,
+				019B65921D5081D3005145A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019B65761D5081D3005145A3 /* Project object */;
+}
